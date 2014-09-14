@@ -1,0 +1,49 @@
+Python Functions:
+List: []
+    They can grow and shrink in size
+    
+    List Comprehensions:
+        [expr for var in list]
+    
+    
+Tuple: ()
+    They are of fixed size and constants
+    
+    So if you want the sort function to behave differently just let the key function to return tuple and if will sort on first value and then second value and we can dictate the behaviour of our sort function
+    
+Dict: {}
+    d = {} 
+    d['a'] will throw error
+    d.get('a') will work here and return None
+
+    d.keys() --- give keys in random order
+    d.values() -- give all the keys
+    d.items() -- print all the items(key, value)
+ 
+File
+    Reading: 
+       for lie in f
+       f.readlines() // read each line as list element
+       f.read() // read the entire file as single string   
+1.sorted : for sorting
+    sorted(list)
+    sorted(list, reverse= true)
+    sorted(list, key = len/some function)
+    
+2. list functions
+    pop
+    add two lists: list1 + list 2
+    
+3. search some char or string/number in string or list
+    "char/string" in string/list
+
+4. Copy 
+    list1 = list2[:] / string1 = string[:]
+
+5. concatenate lists with join
+    " ".join(list)
+    
+6. split a string into lists
+    string.split(':')
+    
+7. range function to create lists easily: range(20)
